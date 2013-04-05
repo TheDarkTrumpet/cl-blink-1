@@ -1,0 +1,13 @@
+cl-blink-1
+
+= Synoposis =
+Simple library to control the blink(1) USB LED device
+
+= Requirements =
+This library should work fine on both Linux, and MacOSX - but maybe not windows.  It has been tested with SBCL primarily. 
+
+= Sample Usage =
+(require :cl-blink-1)
+(defpackage ...
+	    (:use :cl-blink-1 :cl ...))
+
